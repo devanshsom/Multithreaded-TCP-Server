@@ -995,6 +995,7 @@ int main(int argc, char* argv[]) {
         // Run the client in batch mode
         client.run();
         
+        cout<<'Deva';
     } catch (const exception& e) {
         cerr << "Error: " << e.what() << endl;
         return 1;
